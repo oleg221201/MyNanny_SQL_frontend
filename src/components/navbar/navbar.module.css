@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.signIn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.signIn a{
+    color: black !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.signIn a:hover{
+    color: #ab8315 !important;
+}
+
+.signIn p:first-of-type{
+    white-space: pre;
+}
